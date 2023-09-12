@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - function print the alphabet is lowercase or not
- * 'c' is an integer related of an charcter
+ * @c: is an integer related of an charcter
  * Return: Always 0 (Success)
  */
 int _islower(int c)
