@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * print_alphabet_x10 - function  
- *
- * Return: Always 0 (Success)
+ * the alphabet  a - z
  */
 void print_alphabet_x10(void)
 {
