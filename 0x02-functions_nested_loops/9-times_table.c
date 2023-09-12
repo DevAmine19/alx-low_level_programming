@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * times_table - function print times tables
- * 
+ *
  * Return: Always 0 (Success)
  */
 void times_table(void)
@@ -17,13 +17,16 @@ void times_table(void)
 			_putchar(' ');
 			prod = i * j;
 			if (prod <= 9)
+			{
+				_putchar(' ');
 				_putchar((prod) + 48);
-			else 
+			}
+			else
 			{
 				_putchar((prod / 10) + 48);
 				_putchar((prod % 10) + 48);
-			}	
+			}
 		}
-	        _putchar('\n');
+		       	_putchar('\n');
 	}
 }
