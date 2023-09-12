@@ -16,8 +16,8 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 			prod = i * j;
-			if (prod < 10)
-				_putchar(' ');
+			if (prod <= 9)
+				_putchar((prod) + 48);
 			else 
 			{
 				_putchar((prod / 10) + 48);
